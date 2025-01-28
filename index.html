@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loginPage" class="container">
+        <h1 class="title">Romantic Login</h1>
+        <div class="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter password" required>
+
+            <button id="loginButton" class="btn">Login</button>
+            <p id="error" class="error-message"></p>
+        </div>
+    </div>
+
+    <div id="romanticPage" class="hidden">
+        <h1 class="title">Welcome, Regina!</h1>
+        <p class="message">Here are some romantic words for you...</p>
+        <div id="wordsContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
